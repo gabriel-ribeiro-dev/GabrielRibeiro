@@ -1,4 +1,4 @@
-#Página pessoal de Gabriel Ribeiro.
+# Página pessoal de Gabriel Ribeiro.
 Este repositório, tem por objetivo, guardar o código fonte do meu primeiro projeto puro, uma página onde pretendo disponibilizar ao púvlico projetos que eu venha desenvolver no futuro.
 
 ##Home
