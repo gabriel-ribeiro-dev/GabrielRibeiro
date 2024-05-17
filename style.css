@@ -1,0 +1,41 @@
+/* Define o estilo geral do corpo da página */
+body {
+    background-color: #001f3f; /* Define a cor de fundo como azul escuro */
+    color: #FFFFFF;            /* Define a cor do texto como branco */
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão como Arial */
+    margin: 0;                 /* Remove margens padrão */
+    padding: 0;                /* Remove padding padrão */
+}
+
+/* Estilo para títulos de nível 1 */
+h1 {
+    font-size: 2em;            /* Define o tamanho da fonte como 2em */
+    color: #FFDC00;            /* Define a cor do texto como amarelo */
+    text-align: center;        /* Centraliza o texto */
+    margin-top: 20px;          /* Adiciona uma margem superior de 20px */
+}
+
+/* Estilo para títulos de nível 2 */
+h2 {
+    font-size: 1.5em;          /* Define o tamanho da fonte como 1.5em */
+    color: #FF851B;            /* Define a cor do texto como laranja */
+    margin-top: 15px;          /* Adiciona uma margem superior de 15px */
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 1em;            /* Define o tamanho da fonte como 1em */
+    line-height: 1.5em;        /* Define a altura da linha como 1.5em */
+    margin: 10px 0;            /* Adiciona margens superior e inferior de 10px */
+    color: #DDDDDD;            /* Define a cor do texto como cinza claro */
+}
+
+/* Estilo para links */
+a {
+    color: #007BFF;            /* Define a cor dos links como azul */
+    text-decoration: none;     /* Remove sublinhado dos links */
+}
+
+a:hover {
+    color: #0056b3;            /* Define a cor dos links ao passar o mouse */
+}
