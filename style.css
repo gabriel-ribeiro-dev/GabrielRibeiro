@@ -40,3 +40,10 @@ a {
     text-decoration: none;
     transition: color 0 .3s ease;
 }
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #dddddd;
+line-height: 1.6;
+margin-bottom: 16px;
+}
