@@ -1,49 +1,103 @@
-body{
-font-family: Arial, Helvetica, sans-serif;
-color: #ffffff;
-background-color: #00008b;
-border: 2px solid #ffffff;
-border-radius: 8px;
-padding: 16px;
-margin: 16px;
-box-sizing: border-box;
-}
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
-    color: #ffffff;
-    text-align: center;
-    margin: 24.0px;
-    padding: 8px;
-border: 2px solid #ffffff;
-border-radius: 8px;
-background-color: #ffffff;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: 24px;
-color: #ffffff;
-text-align: center;
-margin: 16px;
-padding: 8px;
-border: 2px solid #ffffff;
-border-radius: 8px;
-background-color: #ffffff;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-a {
-    color: #ffffff;
+/* Reset básico para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1a1a2e; /* Azul escuro */
+    color: #ffffff; /* Branco para o texto */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #ffcc29; /* Cor de destaque para títulos */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #ffcc29;
     text-decoration: none;
-    transition: color 0 .3s ease;
-}
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: #dddddd;
-line-height: 1.6;
-margin-bottom: 16px;
-}
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    background-color: #16213e; /* Um tom um pouco mais claro para o header */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #0f3460;
+  }
+  
+  nav {
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #0f3460; /* Um tom complementar para o fundo do conteúdo */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  footer {
+    background-color: #16213e;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #0f3460;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  button {
+    background-color: #ffcc29;
+    color: #1a1a2e;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #e0b020;
+  }
+  
+  /* Estilo responsivo */
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    header, main, footer {
+      padding: 10px;
+    }
+  
+    button {
+      width: 100%;
+      padding: 15px;
+    }
+  }
+  
